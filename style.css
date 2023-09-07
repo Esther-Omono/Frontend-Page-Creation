@@ -72,9 +72,7 @@ body {
     padding: 15px 30px;
     border: 5px double #262a56;
     background-color: hsla(0, 0%, 100%, 0.429);
-}
 
-.btn-text {
     text-decoration: none;
     color: #262a56;
     font-size: 17px;
