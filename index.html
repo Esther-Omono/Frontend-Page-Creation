@@ -3,18 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HNG | Task 1</title>
+    <title>Frontend Page Creation | HNG</title>
+
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div>
-        <h1>Esther Atakere</h1>
-        <img src="images/mypicture.jpg" alt="Esther Atakere" />
-        <div>
-            <h2>Thursday</h2>
-            <h2>10:43 pm</h2>
+    <div class="card">
+        <h1 class="slack-name" data-testid="slackUserName">Esther Atakere</h1>
+        <img src="images/mypicture.jpg" class="slack-image" alt="Esther Atakere" data-testid="slackDisplayImage" />
+        <div class="current-day-time">
+            <p class="current-day" data-testid="currentDayOfTheWeek">Thursday</p>
+            <p class="current-time" data-testid="currentUTCTime">10:43 pm</p>
         </div>
-        <h3>Frontend</h3>
-        <p>GitHub URL</p>
+        <h2 class="track" data-testid="myTrack">Frontend</h2>
+        <div class="btn-container">
+            <button class="btn">
+                <a href="#" class="btn-text" data-testid="githubURL">GitHub URL</a>
+            </button>
+        </div>
     </div>
 </body>
 </html>

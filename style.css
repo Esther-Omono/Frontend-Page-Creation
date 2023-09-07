@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(90deg, #f99b7d 14%, #e76161 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.card {
+    background-color: hsla(0, 0%, 100%, 0.429);
+    border-radius: 25px;
+    height: 600px;
+    width: 500px;
+    padding: 20px;
+}
+
+.slack-name {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #262a56;
+}
+
+.slack-image {
+    border: 10px double #262a56;;
+    width: 250px;
+    height: 250px;
+    display: block;
+    border-radius: 150px;
+    margin: 2rem auto;
+}
+
+.current-day-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.current-day, .current-time {
+    font-size: 25px;
+    font-weight: 700;
+    color: #262a56;;
+}
+
+.track {
+    text-align: center;
+    padding: 15px 30px;
+    font-size: 2rem;
+    color: #262a56;
+}
+
+.btn-container {
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    padding-top: 10px;
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 15px 30px;
+    border: 5px double #262a56;
+    background-color: hsla(0, 0%, 100%, 0.429);
+}
+
+.btn-text {
+    text-decoration: none;
+    color: #262a56;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: #f99b7d;
+}
